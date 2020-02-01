@@ -81,7 +81,7 @@
 # del fruit[0:1]
 # print('delete again: ', fruit)
 
-#数据结构-list
+##数据结构-list
 num_list = [6, 10, 100, 3.0, 777, 32]
 print(sorted(num_list, reverse=True))
 
