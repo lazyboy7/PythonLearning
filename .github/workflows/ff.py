@@ -81,7 +81,25 @@
 # del fruit[0:1]
 # print('delete again: ', fruit)
 
-##数据结构-list
-num_list = [6, 10, 100, 3.0, 777, 32]
-print(sorted(num_list, reverse=True))
+#数据结构-list
+# num_list = [6, 10, 100, 3.0, 777, 32]
+# print(sorted(num_list, reverse=True))
+
+#list
+#定义list
+invitName = ['A','B','C']
+
+#删除list中元素
+notCome = invitName.pop(2)
+
+#list中新增加一个元素
+invitName.insert(2,'D')
+
+print(invitName)
+
+#用pop的信息，显示删除的元素
+print('Player '+notCome+ ' not come')
+
+for i in range(0, len(invitName)):
+    print('Send mail to ' + invitName[i] + ' successfully')
 
