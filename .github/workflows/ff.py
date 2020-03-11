@@ -102,6 +102,3 @@ print('Player '+notCome+ ' not come!')
 
 for i in range(0, len(invitName)):
     print('Send mail to ' + invitName[i] + ' successfully')
-
-
-
