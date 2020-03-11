@@ -98,8 +98,11 @@ invitName.insert(2,'D')
 print(invitName)
 
 #用pop的信息，显示删除的元素
-print('Player '+notCome+ ' not come')
+print('Player '+notCome+ ' not come!')
 
 for i in range(0, len(invitName)):
     print('Send mail to ' + invitName[i] + ' successfully')
+    print('hi')
+
+
 
